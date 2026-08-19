@@ -20,8 +20,7 @@ Deep-agents-With-Langchain-main/
 └── deepagentsdemo/          # Directory containing agent memory, context, and skills
     ├── projects/
     │   └── AGENTS.md        # Persistent context file defining the agent's identity ("who you are")
-    ├── skills/              # Markdown files defining specific skills the agent can learn and use
-    └── *.ipynb              # Jupyter notebooks containing step-by-step feature demos
+    ├── skills/              # Markdown files defining specific skills the agent can learn 
 ```
 
 ---

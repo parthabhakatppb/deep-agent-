@@ -281,8 +281,9 @@ with st.sidebar:
     model = st.selectbox(
         "Model",
         [
-            "whisper-large-v3",
-            "groq:llama-3.1-8b-instant",
+            "huggingface:Qwen/Qwen3.8-27B",
+            "huggingface:mistralai/Mistral-7B-Instruct-v0.2",
+            "huggingface:deepseek-ai/DeepSeek-V4-Pro-0813",
             "ollama:llama3.2",
             "ollama:qwen2.5",
             "ollama:deepseek-r1",

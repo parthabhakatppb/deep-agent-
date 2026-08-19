@@ -7,3 +7,4 @@ ipykernel
 tavily-python
 python-dotenv
 langchain_quickjs
+langchain-deepseek

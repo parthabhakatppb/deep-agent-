@@ -265,7 +265,8 @@ with st.sidebar:
     model = st.selectbox(
         "Model",
         [
-            "huggingface:mondk/Safetensors.chatgpt-gpt-gpt5.1-thinking",
+            "groq:openai/gpt-oss-120b",
+            "groq:deepseek-r1-distill-llama-70b",
         ],
         index=0,
         help="Notebook 1: customizing the deep agent's model "

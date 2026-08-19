@@ -281,7 +281,7 @@ with st.sidebar:
     model = st.selectbox(
         "Model",
         [
-            "groq:llama-3.3-70b-versatile",
+            "whisper-large-v3",
             "groq:llama-3.1-8b-instant",
             "ollama:llama3.2",
             "ollama:qwen2.5",

@@ -1,20 +1,4 @@
-"""
-Deep Agents Chatbot — Streamlit app
-====================================
-A conversational chatbot built on the `deepagents` library that demonstrates
-EVERY feature covered in the deepagentsdemo notebooks:
 
-1-basicsdeepagent.ipynb   -> create_deep_agent, custom model, custom system
-                             prompt, custom tools (Tavily web search),
-                             built-in planning (write_todos) + virtual files
-2-contextengineering.ipynb -> AGENTS.md context file, memory=, checkpointer +
-                             thread_id conversation memory, Skills (/skills/)
-3-backends.ipynb          -> StateBackend / FilesystemBackend / StoreBackend
-4-subagents.ipynb         -> custom subagents (research-agent) + structured
-                             output subagent (Pydantic response_format)
-
-Run with:  streamlit run streamlit_app.py
-"""
 
 import os
 import uuid
@@ -281,13 +265,7 @@ with st.sidebar:
     model = st.selectbox(
         "Model",
         [
-            "huggingface:Qwen/Qwen3.8-27B",
-            "huggingface:mistralai/Mistral-7B-Instruct-v0.2",
-            "huggingface:deepseek-ai/DeepSeek-V4-Pro-0813",
-            "ollama:llama3.2",
-            "ollama:qwen2.5",
-            "ollama:deepseek-r1",
-            "groq:mixtral-8x7b-32768",
+            "huggingface:mondk/Safetensors.chatgpt-gpt-gpt5.1-thinking",
         ],
         index=0,
         help="Notebook 1: customizing the deep agent's model "
